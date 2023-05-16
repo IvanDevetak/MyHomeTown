@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My hometown</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="shortcut icon" type="image/jfif" href="favicon.jfif">
+  </head>
+  <body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+
+let mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+    <header>
+      <h1>Welcome to the website of my hometowns</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">About</a></li>
+          <li><a href="index.html">Posts</a></li>
+          <li><a href="index.html">Contact</a></li>
+          <li><a href="index.html">Resources</a></li>
+          <li><a href="index.html">Archives</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+<main>
+<div>
+<h3>Zmagovalci 45. Festivala narodno-zabavne glasbe "Števerjan 2015"</h3>
+<p>Nagrada za najboljši ansambel Festivala in trofeja “F.B.Sedej”: Ans. OGNJENI MUZIKANTI “Danes pijan” – Žeje pri Komendi<br><br>
+Nagrada občinstva: Ans. KVINTET SLOVENSKIH DEKLET “Ti znaš ravnati z mano” – Ribnica<br><br>
+Nagrada za kvintet: Ans. SEKSTAKORD “Objemi me” – Planina pri Sivnici<br><br>
+Nagrada za trio: Ans. DOLENJSKI ZVOKI “Še vedno si tu” – Novo Mesto<br><br>
+Nagrada za melodijo: “Ti znaš ravnati z mano” avtorja Martina Juharta, ans. KVINTET SLOVENSKIH DEKLET – Ribnica<br><br>
+Nagrada za besedilo: “Otroci sonca” avtorja Ajda Hribar v izvedbi Ans. SAVINJSKI KVINTET – Žalec<br><br>
+Nagrada za debitanta: Ans. GRAJSKI KVINTET “Ko je ljubezen mlada” – Škofja Loka</p>
+</div>
+</main>
+ <footer>
+      <p>&copy; 2023 Ivan Devetak</p>
+    </footer>
+  </body>
+</html>

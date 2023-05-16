@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My hometown</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="shortcut icon" type="image/jfif" href="favicon.jfif">
+  </head>
+  <body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+
+let mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+    <header>
+      <h1>Welcome to the website of my hometowns</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">About</a></li>
+          <li><a href="index.html">Posts</a></li>
+          <li><a href="index.html">Contact</a></li>
+          <li><a href="index.html">Resources</a></li>
+          <li><a href="index.html">Archives</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+<main>
+<div>
+<h3>Zmagovalci 49. Festivala narodno-zabavne "glasbe Števerjan 2019"</h3>
+<div>
+<p>Nagrada za najboljši ansambel Festivala in trofeja “F. B. Sedej”: ans. ZADETEK – “Mamina pesem”<br><br>
+Druga nagrada: ans. DOLENJSKIH 5 – “Ne bodi taka reva”<br>Tretja nagrada: ans. VALOVI – “Imel sem te rad”<br><br>
+Nagrada občinstva: ans. ZADETEK – pesem iz zakladnice “Kje je glasba, tam smo mi” ans. Modrijani<br><br>
+Nagrada za debitanta: ans. MLADI POMURCI – “Moje trmasto srce”<br><br>
+Nagrada za melodijo: Matic Lorbek za skladbo “Mamina pesem” v izvedbi ans. ZADETEK<br><br>
+Nagrada za besedilo: Damjan Pasarič za skladbo “Zapustil si mi spomine” v izvedbi ans. PIK</p>
+</div>
+</main>
+ <footer>
+      <p>&copy; 2023 Ivan Devetak</p>
+    </footer>
+  </body>
+</html>

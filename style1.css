@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #E0FAFE;
+}
+
+
+header {
+  background-image: url("slika 1.jpg");
+  color: #fff;
+  padding: 40px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 60px;
+}
+
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul li a {
+  color: #fff;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  color: black;
+  background-color: #FEE91A;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+section {
+  margin-bottom: 30px;
+}
+section h2 {
+  margin-top: 0;
+  font-size: 40px;
+  color: #ffff;
+  background-color: #00E6FD;
+  padding: 10px
+
+}
+
+section p {
+  margin-top: 0;
+  display: inline-block;
+}
+#posts ul li a:hover {
+  color: #ffff;
+  background-color: #00E6FD;
+}
+#posts nav a, #posts ul li a {
+  list-style: none;
+  text-decoration: none;
+  display: inline;
+  color: black;
+  
+}
+#posts nav a:hover {
+  color: #ffff;
+  background-color: #00E6FD;
+}
+
+#archives ul li a:hover {
+  color: #ffff;
+  background-color: #00E6FD;
+}
+#archives nav a, #archives ul li a {
+  list-style: none;
+  text-decoration: none;
+  display: inline;
+  color: black;
+  
+}
+#archives nav a:hover {
+  color: #ffff;
+  background-color: #00E6FD;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 40px;
+  color: #ffff;
+  background-color: #00E6FD;
+  padding: 10px
+
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #FEE91A;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+#myBtn:hover {
+  background-color: #00E6FD;
+  color: white;
+}
+
+footer {
+  background-color: #FEE91A;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}

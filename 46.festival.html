@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My hometown</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="shortcut icon" type="image/jfif" href="favicon.jfif">
+  </head>
+  <body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+
+let mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+    <header>
+      <h1>Welcome to the website of my hometowns</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">About</a></li>
+          <li><a href="index.html">Posts</a></li>
+          <li><a href="index.html">Contact</a></li>
+          <li><a href="index.html">Resources</a></li>
+          <li><a href="index.html">Archives</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+<main>
+<div>
+<h3>Zmagovalci 46. Festivala narodno-zabavne "glasbe Števerjan 2016"</h3>
+<div>
+<p>Nagrada za najboljši ansambel Festivala in trofeja “F. B. Sedej”: ansambel MURNI “<em>Presneti glavobol</em>” – Šentjur<br><br>
+Druga nagrada:&nbsp;ansambel SEKSTAKORD “<em>Ne pozabi me</em>” – Planina pri Sevnici<br><br>
+Tretja nagrada: ansambel MLADI UPI “<em>S tabo lahko bi letela</em>“- Šmarje pri Jelšah<br><br>
+Nagrada občinstva: ansambel TIK-TAK – skladba iz zakladnice “<em>Zaradi pesmi</em>” (ans. Braneta Klavžarja) – Studeno pri Postojni<br><br>
+Nagrada za besedilo: Dejan Bojanec iz ansambla VIKEND za pesem “<em>Ne joči mami</em>”<br><br>
+Nagrada za debitanta: ansambel MOMENT “<em>Bil je september</em>” –&nbsp;Vinska Gora</p>
+</div>
+</main>
+ <footer>
+      <p>&copy; 2023 Ivan Devetak</p>
+    </footer>
+  </body>
+</html>

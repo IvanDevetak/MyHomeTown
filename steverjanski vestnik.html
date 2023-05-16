@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My hometown</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="shortcut icon" type="image/jfif" href="favicon.jfif">
+  </head>
+  <body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+
+let mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+    <header>
+      <h1>Welcome to the website of my hometowns</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">About</a></li>
+          <li><a href="index.html">Posts</a></li>
+          <li><a href="index.html">Contact</a></li>
+          <li><a href="index.html">Resources</a></li>
+          <li><a href="index.html">Archives</a></li>
+        </ul>
+      </nav>
+    </header>
+
+<main>
+<div>
+<h3>Vestnik</h3>
+<p align="center"><img src="steverjanski vestnik slika.webp"></p>
+<p>
+Števerjanski Vestnik je glasilo, ki zaobjema kulturne, verske in gospodarstvene novice naše vasi, Števerjana. Rodil se je leta 1969 in vse od takrat redno izhaja. Društvo S.K.P.D. F.B. Sedej ga štirikrat letno skrbno oblikuje in zloži, berejo pa ga vsi vaščani in Števerjanci, ki so za ta ali drug vzrok odšli v svet. Nekaj izvodov berejo v Avstriji, Angliji, Avstraliji in v Združenih Državah Amerike. Števerjanski Vestnik odgovarja skrbnemu in občudovanja vrednemu pregovoru:&nbsp; »Verba volant, scripta manent«. V društvu smo prepričani, da je beleženje podatkov in dogodkov velika odgovornost, saj bodo lahko naslednje generacije iz teh tiskovin razumele in spoznale marsikaj, kar zadeva vaško življenje.</p>
+<h3>Informacije</h3>
+<p>Glavni urednik: Petra Ciglic in Klara Terčič</p>
+<p>Odgovorni urednik: Ivan Vogrič</p>
+</div>
+</main>
+<footer>
+      <p>&copy; 2023 Ivan Devetak</p>
+    </footer>
+  </body>
+</html>
